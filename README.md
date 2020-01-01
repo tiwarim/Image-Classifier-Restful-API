@@ -8,14 +8,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-For development, you need to have
+you need to install
 
 ```
-Text editor
 AWS 
 Ubuntu
-Docker and Docker-compose
-
+Python3, flask
+Docker, Docker-compose
+Postman
 ```
 
 ### Installing
@@ -43,54 +43,27 @@ In your AWS virtual environment, go to your directory and run
  > sudo docker-compose up
  Once the API is running, copy the host url and paste it in post man, and give your command after /. In postman, 
  > register using a username and password on a POST protocol with /register URL
- <img width="521" height = "400" alt="Screen Shot 2020-01-01 at 5 25 04 AM" src="https://user-images.githubusercontent.com/41305591/71640419-90b85d80-2c57-11ea-838b-1386055273cb.png">
+ > copy the url of an image from internet and give it as an input along with username and password in POST protocol with /classify url
 
+> Refill tokens using your usename, admin password and refill amount as the inputs to the api with POST protocol and /refill url
 
-### Break down into end to end tests
-
-Explain what these tests test and why
- 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+  
+  
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Contributor Covenant](https://www.contributor-covenant.org/) - Used for the Code of Conduct
-* [Creative Commons](https://creativecommons.org/) - Used to choose the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the [Attribution 4.0 International](LICENSE.md) Creative Commons License - see the [LICENSE.md](LICENSE.md) file for details
+Create a EC2 instance in AWS console, download the pep file and run the following commands:
+> ssh -i <Pem file location><pem file name>.pem.txt <username>@<public dns of your instance>
+ install socker and docker-compose
+> mkdir <directory name>
+> cd <directory name>
+> git clone <your git link to the application containing docker-compose.yml>
+> sudo docker-compose build
+> sudo docker-compose up
+ 
+ And voila! Your application is now hosted on AWS cloud.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Udemy
+* El Farouk Yaseer
