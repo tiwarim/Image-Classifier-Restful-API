@@ -72,6 +72,21 @@ In your local machine, go to your project directory and run
  <br />
  Refilling tokens <br />
  <img width="450" height="350" alt="Screen Shot 2020-01-01 at 8 01 36 AM" src="https://user-images.githubusercontent.com/41305591/71648151-a026bd80-2cce-11ea-8ca1-3e6d72741bc0.png">
+ 
+ ## Running edge test cases ##
+ Regsitering a user twice <br />
+ <img width="329" height="350" alt="Screen Shot 2020-01-01 at 8 37 38 PM" src="https://user-images.githubusercontent.com/41305591/71648762-97d28080-2cd6-11ea-9db0-66b25e1ed5d4.png"> <br />
+ 
+ Invalid user name <br />
+ <img width="750" height="400" alt="Screen Shot 2020-01-01 at 8 44 42 PM" src="https://user-images.githubusercontent.com/41305591/71648855-a2414a00-2cd7-11ea-8421-3f1ddee11b3b.png"> <br />
+ 
+ No more tokens <br />
+ <img width="750" height="400" alt="Screen Shot 2020-01-01 at 8 48 13 PM" src="https://user-images.githubusercontent.com/41305591/71648896-1d0a6500-2cd8-11ea-8fb7-b2d7c5fa1d97.png"> <br />
+ 
+ Wrong Admin password <br />
+ <img width="359" alt="Screen Shot 2020-01-01 at 8 57 51 PM" src="https://user-images.githubusercontent.com/41305591/71649045-7030e780-2cd9-11ea-8edf-5bd7fd9f051c.png"> <br />
+ 
+ 
 
 
 ## Deployment
