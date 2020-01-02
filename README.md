@@ -39,13 +39,12 @@ End with an example of getting some data out of the system or using it for a lit
 ## Running the tests 
 "
 In your AWS virtual environment, go to your directory and run
- > sudo docker-compose build 
- > sudo docker-compose up
- Once the API is running, copy the host url and paste it in post man, and give your command after /. In postman, 
- > register using a username and password on a POST protocol with /register URL
- > copy the url of an image from internet and give it as an input along with username and password in POST protocol with /classify url
-
-> Refill tokens using your usename, admin password and refill amount as the inputs to the api with POST protocol and /refill url
+ * sudo docker-compose build <br />
+ * sudo docker-compose up <br />
+ Once the API is running, copy the host url and paste it in post man, and give your command after /. In postman, <br />
+ * register using a username and password on a POST protocol with /register URL <br />
+ * copy the url of an image from internet and give it as an input along with username and password in POST protocol with /classify url <br />
+ * Refill tokens using your usename, admin password and refill amount as the inputs to the api with POST protocol and /refill url <br />
 
   
   
