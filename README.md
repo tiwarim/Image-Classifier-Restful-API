@@ -79,9 +79,9 @@ In your local machine, go to your project directory and run
 Create a EC2 instance in AWS console, download the pep file and run the following commands:  <br />
 * ssh -i "Pem file location""pem file name".pem.txt "username"@"public dns of your instance"  <br />
  install docker and docker-compose.  <br />
-* mkdir <directory name>.  <br />
-* cd <directory name>
-* git clone <your git link to the application containing docker-compose.yml>  <br />
+* mkdir "directory name"  <br />
+* cd "directory name"
+* git clone "your git link to the application containing docker-compose.yml"  <br />
 * sudo docker-compose build <br />
 * sudo docker-compose up. <br />
  
