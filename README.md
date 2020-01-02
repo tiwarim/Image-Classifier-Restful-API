@@ -22,15 +22,15 @@ Say what the step will be
 
 ```
 Python : 
-https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html <br />
+https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html 
 Flask:
-https://pypi.org/project/Flask/ <br />
+https://pypi.org/project/Flask/ 
 Docker 
-https://docs.docker.com/docker-for-mac/install/ <br />
+https://docs.docker.com/docker-for-mac/install/ 
 Docker-compose 
-https://docs.docker.com/compose/install/. <br />
+https://docs.docker.com/compose/install/. 
 Postman:
-https://www.getpostman.com/downloads/ </br>
+https://www.getpostman.com/downloads/ 
 
 ```
 
