@@ -10,6 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 Python3, flask
+MongoDB
 Docker, Docker-compose
 Postman
 ```
@@ -25,6 +26,8 @@ Python :
 https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html 
 Flask:
 https://pypi.org/project/Flask/ 
+MongoDB :
+https://docs.mongodb.com/manual/installation/
 Docker 
 https://docs.docker.com/docker-for-mac/install/ 
 Docker-compose 
