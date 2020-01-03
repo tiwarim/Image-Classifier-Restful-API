@@ -6,32 +6,43 @@ This is a Restful MAchine learning API that makes use of pretrained TensorFlow I
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### System Prerequisites
 
 ```
-Python3, flask
+Python3
 MongoDB
-Docker, Docker-compose
+Docker
+Docker-compose
 Postman
 ```
+
+**Install Python requirements**
+```
+pip3 install -r requirements.txt
+```
+
+
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
 ```
 Python : 
 https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/python.html 
+
 Flask:
 https://pypi.org/project/Flask/ 
-MongoDB :
+
+MongoDB:
 https://docs.mongodb.com/manual/installation/
-Docker 
+
+Docker:
 https://docs.docker.com/docker-for-mac/install/ 
-Docker-compose 
-https://docs.docker.com/compose/install/. 
+
+Docker-compose:
+https://docs.docker.com/compose/install/
+
 Postman:
 https://www.getpostman.com/downloads/ 
 
